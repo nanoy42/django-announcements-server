@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+
+[dev-packages]
+sphinx = "*"
+sphinx-rtd-theme = "*"
+black = "*"
+rope = "*"
+coverage = "*"
+coveralls = "*"
+docstr-coverage = "*"
+
+[pipenv]
+allow_prereleases = true
